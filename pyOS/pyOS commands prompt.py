@@ -113,7 +113,7 @@ while True:
             print("Error. Cannot open calculator or calculator not in the same folder.")
             print("Please put Calculator.py in the same folder as this file.")
             print("If there is no calculator file you can reinstall this OS in:")
-            print("https://placeholder.com")
+            print("https://github.com/Z4RN-cmd/pyOS-my-version-")
     elif cmd == "notepad":
         base_dir = os.path.dirname(os.path.abspath(__file__))
         note_path = os.path.join(base_dir, "notepad.py")
@@ -125,13 +125,13 @@ while True:
                 print("Error. Cannot open Notepad or Notepad not in the same folder.")
                 print("Please put Notepad.py in the same folder as this file.")
                 print("If there is no Notepad file you can reinstall this OS in:")
-                print("https://placeholder.com")
+                print("https://github.com/Z4RN-cmd/pyOS-my-version-")
     
         else:
             print("Error. Cannot open Notepad or Notepad not in the same folder.")
             print("Please put Notepad.py in the same folder as this file.")
             print("If there is no Notepad file you can reinstall this OS in:")
-            print("https://placeholder.com")
+            print("https://github.com/Z4RN-cmd/pyOS-my-version-")
     elif cmd == "whoami":
         print(f"username: {username}")
         print(f"password:******")
@@ -150,13 +150,13 @@ while True:
                 print("Error. Cannot open File manager or File manager not in the same folder.")
                 print("Please put filemanager.py in the same folder as this file.")
                 print("If there is no filemanager file you can reinstall this OS in:")
-                print("https://placeholder.com")
+                print("https://github.com/Z4RN-cmd/pyOS-my-version-")
     
         else:
             print("Error. Cannot open file manager or file manager not in the same folder.")
             print("Please put filemanager.py in the same folder as this file.")
             print("If there is no filemanager file you can reinstall this OS in:")
-            print("https://placeholder.com")
+            print("https://github.com/Z4RN-cmd/pyOS-my-version-")
     elif cmd == "paint":
         base_dir = os.path.dirname(os.path.abspath(__file__))
         paint_path = os.path.join(base_dir, "paint.py")
@@ -168,12 +168,12 @@ while True:
                 print("Error. Cannot open Paint or Paint not in the same folder.")
                 print("Please put paint.py in the same folder as this file.")
                 print("If there is no Paint file you can reinstall this OS in:")
-                print("https://placeholder.com")
+                print("https://github.com/Z4RN-cmd/pyOS-my-version-")
         else:
             print("Error. Cannot open Paint or Paint not in the same folder.")
             print("Please put paint.py in the same folder as this file.")
             print("If there is no Paint file you can reinstall this OS in:")
-            print("https://placeholder.com")
+            print("https://github.com/Z4RN-cmd/pyOS-my-version-")
         
         
     else:
